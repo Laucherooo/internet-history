@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> <!--language-->
+<!--head and body就像是兩個branch-->
+<!--把整個head選起來tab可以讓整個往前 shift+tab可以退回-->
+<!--CSS管理了網頁顯示的方式 可以直接包在head裡控制，也可以單獨在每個tag裡inline控制-->
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title> <!--網頁的標題 也是網頁在外呈現的方式-->
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <!--
+    <style>
+        h2{
+            color: #37a67f;
+            font-weight: bold;
+        }
+    </style>
+    -->
+    <!--不要讓css產生repetition-->
+    <!--這就像是class的概念 預先設定好一些顏色字型 在需要的時候inline call就可以-->
+    <style>
+        .red{
+            color: red;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+My first website 123
+<menu>
+    <a href="index.html">Home</a>
+    <a href="about.html">about</a>
+</menu>
+
+<p></p> <!--分段落用的-->
+
+    <ol> <!--幫下面的list前面標上數字-->
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+    </ol>
+
+    <ul> <!--幫下面的list前面標上黑點-->
+        <li>UL 1</li>
+        <li>UL 2</li>
+    </ul>
+
+
+<h1 style="color: #a2e7c5; font-weight: bold;">About Page</h1>
+<h2 class="red">H2 test</h2>
+
+</body>
+</html>
