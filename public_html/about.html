@@ -8,6 +8,7 @@
     <title>Title</title> <!--網頁的標題 也是網頁在外呈現的方式-->
     <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
     <!--
+    這邊的功能是設定讓所有h2都呈現下面選擇的樣式
     <style>
         h2{
             color: #37a67f;
@@ -16,13 +17,22 @@
     </style>
     -->
     <!--不要讓css產生repetition-->
-    <!--這就像是class的概念 預先設定好一些顏色字型 在需要的時候inline call就可以-->
+    <!--這就像是class的概念 預先設定好一些顏色字型 在需要的時候inline call那個class就可以-->
     <style>
         .red{
             color: red;
         }
         .bold{
             font-weight: bold;
+        }
+        #primaryLinks {
+            border: 1px solid black;
+        }
+        #sampleImage{
+            background-image: url("images/error.png");
+            width: 200px;
+            height: 400px;
+            background-size: cover;
         }
     </style>
 
@@ -32,7 +42,9 @@
 My first website 123
 <menu>
     <a href="index.html">Home</a>
-    <a href="about.html">about</a>
+    <a href="about.html">About</a>
+    <a href="Z%20Layout.html">Z Layout</a>
+
 </menu>
 
 <p></p> <!--分段落用的-->
@@ -50,6 +62,56 @@ My first website 123
 
 <h1 style="color: #a2e7c5; font-weight: bold;">About Page</h1>
 <h2 class="red">H2 test</h2>
+
+<ul>
+    <li>PNG - Portable Network Graphic <!--點陣圖形 raster graphic-->
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+
+    <li>SVG - <!--向量圖形 vector graphic 通常使用在一些使用者介面上-->
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+
+    <li>GIF -
+        <ul>
+            <li>Only supports 256 colors</li>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+
+    <li>JPG - Joint Photographic Experts Group
+        <!--如果不需要圖片透明度也不需要使用者圖示 jpg是保存圖片品質的最好格式-->
+        <ul>
+            <li>Supports 16.7 millions colors</li>
+            <li></li>
+            <li></li>
+        </ul>
+    </li>
+</ul>
+
+<ol>
+    <li>In the web page as content</li>
+    <img height=""200px" width="200px" src="images/error.png" alt="content">
+</ol>
+
+<ol>
+    <li>There are DIV and SPAN elements for pages, the div ,ales a cariage return i.e. new line and
+        <div>This text is on a div</div>
+        <span>FIrst Letter bold in a span</span>
+    </li>
+    <li>
+
+    </li>
+</ol>
 
 </body>
 </html>
