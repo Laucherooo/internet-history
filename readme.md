@@ -4,4 +4,5 @@ I have problem running a new container so my z layout can not be shown on the we
 
 M1: docker build -t cc243/internethistory_x86 --platform linux/amd64 .
 
+[History of Internet_Zlayout](http://20.85.195.77/Z%20Layout.html)
 [History of Internet](http://cc243x86.eastus.azurecontainer.io)
